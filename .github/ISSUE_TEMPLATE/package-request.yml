@@ -1,7 +1,7 @@
 name: 📦 Package Request
 description: Open an issue about a missing package.
 title: "[Request]: "
-labels: ["package-request"]
+labels: ["new package"]
 body:
 - type: checkboxes
   attributes:
@@ -14,12 +14,18 @@ body:
     label: Criteria
     description: For a package to be acceptable in this bucket, it should be
     options:
-    - label: Criteria 1
+    - label: Reasonably well-known and widely used
       required: true
-    - label: Criteria 2
+    - label: A Doom sourceport or a Doom-related tool
       required: true
-    - label: Criteria 3
+    - label: English interface (or at least English documentation)
       required: true
+    - label: Latest stable or development version
+      required: true
+    - label: Full version (i.e. not a trial version)
+      required: false
+    - label: Fairly standard install (e.g. uses a version-specific download URL, no elaborate pre/post install scripts)
+      required: false
 - type: input
   attributes:
     label: Name
