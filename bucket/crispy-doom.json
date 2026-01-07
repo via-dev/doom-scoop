@@ -83,8 +83,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/fabiangreffrath/crispy-doom/releases/download/crispy-doom-$version/crispy-doom-$majorVersion.$minorVersion.$patchVersion-win64.zip",
-                "extract_dir": "crispy-doom-$majorVersion.$minorVersion.$patchVersion-win64"
+                "url": "https://github.com/fabiangreffrath/crispy-doom/releases/download/crispy-doom-$version/crispy-doom-$majorVersion.$minorVersion.$patchVersion-win64.zip"
             }
         }
     }
