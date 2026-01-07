@@ -39,6 +39,9 @@
         "   New-item \"$scoopdir\\persist\\_doom\" -ItemType Directory | Out-Null",
         "}"
     ],
+    "env_set": {
+        "DOOMWADDIR": "$persist_dir\\..\\_doom"
+    },
     "bin": "dsda-doom.exe",
     "shortcuts": [
         [
