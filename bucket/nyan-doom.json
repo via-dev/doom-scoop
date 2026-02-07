@@ -1,5 +1,5 @@
 {
-    "version": "1.4.1",
+    "version": "1.4.2",
     "description": "Nyan Doom is based on the DSDA-Doom source port, but adds many more quality-of-life and innovative features",
     "homepage": "https://github.com/andrikpowell/nyan-doom",
     "license": "GPL-2.0-only",
@@ -26,9 +26,9 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/andrikpowell/nyan-doom/releases/download/v1.4.1/nyan-doom-1.4.1-win-x64.zip",
-            "hash": "155fb3fe051c8e02b4ef5ae53fdc39b585074203b77846b30d794574babf7298",
-            "extract_dir": "nyan-doom-1.4.1-win-x64"
+            "url": "https://github.com/andrikpowell/nyan-doom/releases/download/v1.4.2/nyan-doom-1.4.2-win-x64.zip",
+            "hash": "203dfd8a3cc02ca4757ad03961237dbf493959cbd408455a7373dd70d479470e",
+            "extract_dir": "nyan-doom-1.4.2-win-x64"
         }
     },
     "pre_install": [
